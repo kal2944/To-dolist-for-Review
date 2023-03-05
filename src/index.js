@@ -38,3 +38,15 @@ clearCompleted.addEventListener('click', (e) => {
   localStorage.setItem('data', JSON.stringify(notDeleted));
   actions();
 });
+
+// clearCompleted.addEventListener('click', (e) => {
+//   e.preventDefault();
+//   const notDeleted = tasksList.filter((x) => x.completed === false);
+
+//   for (let i = 0; i < notDeleted.length; i += 1) {
+//     notDeleted[i].index = i + 1;
+//   }
+//   localStorage.setItem('data', JSON.stringify(notDeleted));
+//   actions();
+// });
+
