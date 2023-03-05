@@ -38,4 +38,3 @@ clearCompleted.addEventListener('click', (e) => {
   localStorage.setItem('data', JSON.stringify(notDeleted));
   actions();
 });
-
